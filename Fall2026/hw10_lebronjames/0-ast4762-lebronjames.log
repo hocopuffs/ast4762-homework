@@ -1,0 +1,191 @@
+Shiloh
+Log for AST 4762, Fall 2026
+*****IN: Sun Aug 30 22:09:00 EST 2026
+Opened TextEdit, started this log, saved as:
+C:\Users\FiveM\Desktop\ast4762\0-ast4762-lebronjames.log
+
+Name: Shiloh
+Username: lebronjames
+
+What astronomy classes have you taken?
+-I'm so glad you asked, I've taken AST 2002, 3110, 4142 (kinda), 4700, and I'm  currently enrolled in 3402 as well as this class
+
+Are you generally comfortable with calculus and physics?
+-As much as anyone can be
+
+Have you ever programmed a computer?
+-In its entirety? No. But I have created programs before, if that is what the question is referring to
+
+In what language(s)?
+-Portugese (jk Python)
+
+Have you taken a programming class, and if so which?
+-I took COP3223 a while ago, my memory is extremely hazy
+
+Have you taken statistics or probability?
+-No I have not
+
+Will you be attending the DPS conference this year, or will
+you be away otherwise?
+-I will be away
+
+Why are you taking this course?
+-UCF wants me to be miserable
+
+Are there particular topics you hope to learn?
+-I really enjoy space exploration and find data collection and analysis very intruiging
+
+If you have programmed outside of a course before, please
+briefly describe: N/A
+If you have worked with scientific data before, briefly
+describe your experience: N/A
+
+3. To complete the following steps, I will right click and select "New Folder" to create a new folder. I will click and drag my log file into the new appropriately named folder. I will right click on the folder, now containing my file, and select compress to zip in the drop-down menu. I will then open google chrome and go to my very convenient webcourses bookmark at the top of the page. I will submit my zip file and exhale a sigh of relief, followed by a wave of triumph.
+
+*****OUT: Sun Aug 30 22:22:22 EST 2026
+
+*****IN: Sun Aug 22:22:22 EST 2026
+
+-Made folder hw1_lebron james under my ast4762 folder
+
+-Downloaded a PLETHORA of programs and installed, setup jupyter, github, anaconda, and stokes. Downloaded the VPN to accompany
+
+-Used the PrtScreen shortcut key on my keyboard to take a screenshot of the program. Pasted the result in a photo editor and saved the file with the correct naming convention
+
+-Did the same with Github and Stokes
+
+-Double checked to make sure I didn't miss anything. Saved log and copied into hw1_lebronjames
+
+-Using the same right click shortcut as hw0, zipped hw1 folder and uploaded to webcourses
+
+*****OUT: Sun Aug 30 23:41:00
+
+*****IN Tuesday Sep 09
+
+Created folder ast4762/homework/hw2_lebronjames and file hw2_lebronjames.py
+
+Problem 2:
+Imported numpy as np.
+Created array x with np.arange(0,1001). Verified size with x.size.
+Printed dtype (int64) and min/max of x.
+Rescaled x in-place to span 0 → 2pi using: x = x(2*np.pi/1000).
+Verified new min/max match 0 and 2pi.
+Created y = np.sin(x) 
+Printed element y[234] 
+
+Problem 3:
+Imported matplotlib.pyplot as grph
+Created a figure and plotted y vs x.
+Labeled axes (“x (Rad)”, “sin(x)”), set title (“Sine of X from 0 to 2pi”), enabled grid.
+Saved figure to Sine_Graph.png in the hw2_lebronjames folder and closed the figure.
+
+Problem 4:
+Built ramp r with np.linspace(-1, 1, 101). Printed size/min/max.
+Clipped with np.clip(r, -0.5, 0.5) to produce rclip (no loops).
+Plotted r and rclip on the same axes with labels, legend, grid, title.
+Saved figure to original_clipped_graph.pdf and closed.
+
+Problem 5:
+Wrote two short summaries about free Python astronomy packages (Astroquery and Lightkurve) inside a triple‑quoted string and printed them from the main script. Verified the printout displays.
+
+*****OUT Tuesday Sep 09
+
+*****IN Saturday Sep 19 13:47
+
+Problem 1:
+Created homework directory using mkdir hw3_lebronjames, then used cd to move
+
+
+Problem 2:
+Used the provided support functions and created the square function. Tested using inputs.
+
+Problem 3:
+Created the squareplot function and tested, saved the plot using saveplot as a pdf
+
+Problem 5: 
+Will come back to stokes, having issue currently
+
+Submitted by using terminal to compress into a tar.gz and upload to webcourses
+
+*****OUT Saturday Sep 19 15:01
+
+*****IN Sunday Oct 11 13:24
+
+Problem1:
+Created homework directory using mkdir hw7_lebronjames
+
+Problem 2:
+Read and summarized articles about hot exoplanets
+
+Problem 3:
+Read and plotted the data, calculated radius using provided equation. Used curve_fit to find the center, witdth, and depth. Covariance couoldn't be deduced because of the discontinuous box function. Used fitted transit depth to calculate planetary radius, and then calculated uncertainty
+
+Exported as a .py
+
+*****OUT Friday Oct 16 17:56
+
+*****IN Friday Oct 16 17:56
+
+Realized I forgot to include an OUT statement for my last log entry. Corrected.
+
+*****OUT Friday Oct 16 17:57
+
+*****IN Sunday Oct 18 18:20
+
+Continued work on Practicum 5 and Homework 6-8
+
+Created a directory in AST4762 folder using the mkdir command in powershell
+
+Included Practicum 5 code and created function skycormednorm() for sky subtraction
+
+Calculated median brightness to determine normfactor
+
+Created a copy of data so I wouldn't affect or overwrite the original
+
+Applied the function to all frames
+
+Printed pixel (217,148) as requested by the assignment
+
+Saved final 1024x1024 as stars_13s_9_nosky.fits, used function "test" to verify shape
+
+Have not succeeded in getting stokes to work, have very limited mental bandwidth at the moment due to external factors/events, but will attempt tomorrow evening (Monday) so this does not continue to occur
+
+Compressed file into tar.gz using powershell terminal, submitted to webcourses
+
+*****OUT Sunday Oct 18 20:20
+
+*****IN Friday Nov 13 06:45
+
+Created a new directory via powershell hw9_lebronjames
+
+Created a numpy array to store coordinates and photometry measurements across the obs frames
+
+Identified the initial positions of the stars in each frame
+
+Used a guassian function to determine centers and widths
+
+Had errors due to mismatching dimensions of arrays, corrected, used .copy() to avoid changing/altering original data
+
+Finally got everything stokes/github related working
+
+COMMITTED TO GITHUB RAHHHHHHHH!!!!!!! (provided screenshot)
+
+Compressed to a tar.gz using powershell and submitted
+
+*****OUT Friday Nov 13 08:12
+
+*****IN Friday Nov 13 08:13
+
+Created new directory as per usual hw10_lebronjames
+
+Ran into errors importing functions from hw9 notebook, so just created a copy of the notebook and continued at the bottom
+
+Pasted support files from previous practicum and hws into hw10 folder for reference
+
+Used loops over stars/frames so function apphot would run for each
+
+Reshaped and exported completed photometry table as an ASCII table, and used np.savetxt() to save to text file
+
+Pushed to GitHub, took screenshot and placed inside hw10 folder
+
+Used powershell to compress to tar.gz, submitted on webcourses
